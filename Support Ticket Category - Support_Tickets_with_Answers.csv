@@ -1,0 +1,51 @@
+ticket_text,category,answer
+I was charged twice for this month's membership. Please issue a refund.,billing,I’m sorry for the duplicate charge. I’ve processed a refund for the extra payment—it should appear on your statement within 5-7 business days.
+My invoice shows an incorrect amount. Can you correct it?,billing,Apologies for the mistake. I’ve corrected your invoice and resent it to your email address.
+I upgraded to Elite last week but haven't seen the pro-rated charge. Explain?,billing,Thanks for upgrading! Your prorated charge will reflect on your next billing cycle. I’ve also applied it manually—please check your dashboard.
+I want to cancel my subscription but keep getting charged. Need assistance.,billing,I’m sorry you’re experiencing this. I’ve canceled your subscription effective immediately and issued a refund for any recent charge.
+Can you provide a detailed breakdown of last month's coaching fees?,billing,Certainly! I’ve emailed you a detailed breakdown of all coaching fees from last month. Let me know if you have any questions.
+The video player keeps buffering and won't load session recordings.,technical,I apologize for the buffering issue. Please try clearing your browser cache or switching to Chrome. We’re also investigating server performance.
+I get an error 404 when trying to access the resource library.,technical,Our resource library URL changed—here’s the updated link [new URL]. Let me know if you still see the 404.
+My webinar playback audio is out of sync with the video.,technical,I’m sorry about the sync issue. I’ve reprocessed the video—please try the link again and let me know if it’s better.
+The download links for the worksheets are broken.,technical,Thanks for reporting this. I’ve updated the links and confirmed they’re working. Please try downloading again.
+I can't upload my assignment in the portal—it times out.,technical,"I’m sorry for the timeout. Please try uploading in smaller parts or use Wi-Fi. If it still fails, send the file to support email."
+Do you have transcripts for the last Q&A session?,content,Yes! Here’s the transcript for the last Q&A session: [link]. Feel free to download and review.
+Can you share the slides from yesterday's mastermind call?,content,Absolutely—here are the slides from yesterday: [link]. Let me know if you need anything else.
+Where can I find the updated coaching curriculum outline?,content,The latest curriculum outline is available under ‘Resources > Curriculum’. Here’s the direct link: [link].
+Is there a summary or cheatsheet for the productivity module?,content,"Yes, here’s a one-page cheatsheet for the productivity module: [link]. Enjoy!"
+Could you send me the bonus templates promised in the welcome email?,content,I’ve resent the bonus templates to your inbox—please check your spam folder if you don’t see them.
+I'd like to reschedule my 1:1 coaching call next week.,scheduling,"Sure! Please pick a new time using my Calendly link: [link], and the new invite will go to your email."
+What time zones are available for scheduling sessions?,scheduling,"We offer sessions from 8 AM to 5 PM EST, PST, and GMT. Use the scheduler link to see slots in your local time."
+Can I book an extra group coaching slot this month?,scheduling,Yes—you can add up to two extra slots. Use this link to book: [link]. Let me know if you need help.
+My scheduled session disappeared from my calendar.,scheduling,"I’m sorry for the confusion. I’ve resent the calendar invite—please accept it, and it should appear again."
+How do I join the live coaching event tomorrow?,scheduling,Just click the Zoom link in your confirmation email 10 minutes before the start time. Here it is again: [link].
+I want to cancel my trial before it renews. What is the process?,cancellation,"I can cancel your trial immediately. Just confirm your account email, and I’ll handle it for you—no charges will apply."
+Please cancel my subscription effective immediately.,cancellation,"Your subscription has been canceled effective today. You won’t be billed again, and you still have access until period end."
+Can you confirm the penalty for canceling mid-term?,cancellation,There’s a $50 mid-term cancellation fee according to our terms. Would you like to proceed?
+I'm considering canceling—what are the differences between plans?,cancellation,"Elite includes 1:1 coaching, Q&A calls, and resources. Pro offers group calls and resources only. Let me know which you prefer."
+How do I cancel the Elite coaching add-on only?,cancellation,I’ve removed the Elite add-on from your account—your base membership remains unchanged.
+The recent module felt rushed. Can you slow down the pace?,feedback,Thank you for the feedback. We’ll extend module durations moving forward to ensure a more relaxed pace.
+I love the content but would like more real-world examples.,feedback,Great suggestion! We’ll add more case studies and examples in upcoming sessions.
+The coach's audio was too quiet. Could this be fixed?,feedback,I’ve increased the audio levels on the recording. Please check the updated version here: [link].
+"Great program, but I found the group calls too long.",feedback,Understood. We’ll shorten future group calls to 45 minutes and focus on the most critical topics.
+The downloadable charts are hard to read. Can you improve them?,feedback,Absolutely—we’ve updated the charts with larger fonts and better contrast. Download the new versions here: [link].
+I'm unable to update my billing address in my profile.,account,You can update your billing address under Profile > Billing. I’ve also updated it for you—please verify.
+My account dashboard isn't displaying correctly.,account,"Try clearing your cache or using an incognito window. If it persists, let me know and I’ll investigate further."
+I need to change my membership email address.,account,I’ve updated your account email—please check your inbox to confirm the change.
+Please delete my old account and migrate my data to a new one.,account,Your old account has been deleted and your data migrated to your new account. Please confirm access.
+I can't see my past invoices under account settings.,account,I’ve re-synced your billing records—you should now see all past invoices under Billing > Invoices.
+I forgot my password and the reset link isn't working.,password,"Here’s a direct password reset link: [link]. If you don’t receive it, check your spam or let me know."
+Please reset my password; I haven't received the email.,password,I’ve resent the reset email and confirmed delivery. Check your spam folder and let me know if it still doesn't arrive.
+How can I enable two-factor authentication on my account?,password,"Go to Security Settings > Two-Factor Authentication, follow the prompts, and scan the QR code with your authenticator app."
+I changed my password but still can't log in.,password,I’ve manually reset your password and emailed you a temporary one. Please use it to log in and update to a new password.
+Can you help me secure my account with a stronger password?,password,We recommend at least 12 characters with numbers and symbols. Let me know if you’d like more tips or assistance.
+I'd like to switch to a different coach for my sessions.,coach,"Sure—please let me know your preferences, and I’ll match you with another coach."
+My assigned coach has been unavailable—can I get a replacement?,coach,I apologize for the inconvenience. I’ve assigned you a new coach—details have been emailed to you.
+How do I request a second opinion from another coach?,coach,You can request a second opinion by filling out this form: [link]. We’ll schedule it within 24 hours.
+I want more coaching hours with my current coach.,coach,You can purchase additional hours here: [link]. Let me know if you’d like me to add them to your account.
+Can I have a meet-and-greet with potential coaches before choosing?,coach,Absolutely—book a 15-minute meet-and-greet here: [link]. You can meet any coach available.
+What are the perks of the Elite vs. Pro membership?,membership,"Elite offers 1:1 coaching, exclusive Q&A calls, and premium resources. Pro includes group calls and standard resources."
+Is there a family or team membership discount available?,membership,"Yes, we offer a 20% discount for teams of 3 or more. Contact sales@coaching.com for details."
+Can I pause my membership for vacation?,membership,You can pause your membership for up to 2 months. I’ve placed your account on hold—let me know when you return.
+Do you offer lifetime membership pricing?,membership,"We do! Our lifetime plan is currently $1,499. I’ve attached the purchase link here: [link]."
+How do I revert from Elite back to the basic membership?,membership,I’ve downgraded your account to Basic. Your next bill will reflect the new rate.

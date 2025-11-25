@@ -1,0 +1,63 @@
+name: Run Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo:8.0
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --eval 'db.adminCommand({ping: 1})'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mongodb
+          coverage: none
+
+      - name: Install Composer Dependencies
+        working-directory: ./backend
+        run: composer install --prefer-dist --no-progress --no-interaction
+
+      - name: Copy .env
+        working-directory: ./backend
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+
+      - name: Set Environment Variables
+        working-directory: ./backend
+        run: |
+          echo "DB_CONNECTION=mongodb" >> .env
+          echo "DB_HOST=127.0.0.1" >> .env
+          echo "DB_PORT=27017" >> .env
+          echo "DB_DATABASE=ticket_classifier_test" >> .env
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
+          echo "OPENAI_FINE_TUNED_MODEL=${{ secrets.OPENAI_FINE_TUNED_MODEL }}" >> .env
+
+      - name: Run Tests
+        working-directory: ./backend
+        run: php artisan test --exclude-group=accuracy
+
+      - name: Run Accuracy Test (Optional)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        working-directory: ./backend
+        env:
+          RUN_ACCURACY_TEST: true
+        run: php artisan test --filter AccuracyValidationTest
