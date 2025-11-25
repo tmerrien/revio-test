@@ -175,7 +175,7 @@ def save_model_id(model_id, output_path):
 
 def estimate_cost():
     """Estimate the cost of fine-tuning."""
-    # As of 2024, gpt-3.5-turbo fine-tuning costs:
+    # gpt-3.5-turbo fine-tuning costs:
     # Training: $0.008 per 1K tokens
     # Assume ~100 tokens per example (ticket + response)
     # 40 examples * 100 tokens * 3 epochs = 12,000 tokens
